@@ -1,48 +1,46 @@
 {
-  "chunk_id": "subchapter_1",
-  "title": "Subchapter 1 - GENERAL PROVISIONS",
+  "chunk_id": "subchapter_4",
+  "title": "Subchapter 4 - ADMINISTRATION",
   "hierarchy": {
     "title": "27",
     "chapter": "2",
-    "subchapter": "1"
+    "subchapter": "4"
   },
   "page_numbers": [
-    1
+    75
   ],
   "cross_references": [],
   "keywords": [
-    "ventilation",
     "violation",
     "inspection",
     "section-27-2140",
     "occupant",
     "maintenance",
-    "kitchen",
+    "section-27-2098",
     "tenant",
-    "section-27-2075",
-    "sanitary",
-    "common area",
-    "safety",
+    "section-27-2107",
+    "section-27-2105",
     "apartment",
-    "habitability",
+    "section-27-2118",
+    "heat",
     "lead",
+    "section-27-2092",
     "owner",
+    "emergency",
     "building",
-    "section-27-2114",
     "premises",
-    "fire",
-    "bathroom",
+    "section-27-2019",
     "access",
-    "section-27-2093",
     "section-27-2004",
     "room",
     "repair",
     "dwelling",
-    "section-27-2077",
-    "health"
+    "section-27-2109",
+    "section-27-2099",
+    "section-27-2104"
   ],
   "chunk_type": "subchapter",
   "parent_chunks": [],
-  "content_length": 33598,
-  "token_estimate": 8399
+  "content_length": 80355,
+  "token_estimate": 20088
 }

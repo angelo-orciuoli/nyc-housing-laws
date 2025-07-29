@@ -1,24 +1,21 @@
 {
   "chunk_id": "section_27_2005",
-  "title": "\u00a7 27-2005 - Scope and application",
+  "title": "\u00a7 27-2005 - Duties of owner",
   "hierarchy": {
     "title": "27",
     "chapter": "2",
     "section": "27-2005"
   },
   "page_numbers": [
-    1
+    10
   ],
-  "cross_references": [
-    "2004"
-  ],
+  "cross_references": [],
   "keywords": [
     "section-27-2005",
-    "section-27-2004",
-    "dwelling"
+    "owner"
   ],
   "chunk_type": "section",
   "parent_chunks": [],
-  "content_length": 173,
-  "token_estimate": 43
+  "content_length": 31,
+  "token_estimate": 7
 }

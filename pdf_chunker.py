@@ -36,9 +36,9 @@ class HMCChunker:
         
         # Regex patterns for identifying structure
         self.patterns = {
-            'subchapter': re.compile(r'SUBCHAPTER\s+(\d+|[IVX]+)\s*[-–]\s*(.+?)(?=\n|$)', re.IGNORECASE),
-            'article': re.compile(r'ARTICLE\s+(\d+|[A-Z]+)\s*[-–]\s*(.+?)(?=\n|$)', re.IGNORECASE),
-            'section': re.compile(r'§?\s*27-(\d{4})\s*[-–]?\s*(.+?)(?=\n|$)', re.IGNORECASE),
+            'subchapter': re.compile(r'^SUBCHAPTER\s+(\d+|[IVX]+)\s*$', re.IGNORECASE),
+            'article': re.compile(r'^ARTICLE\s+(\d+|[A-Z]+)\s*$', re.IGNORECASE),
+            'section': re.compile(r'^§27–(\d{4})\s+(.+?)(?:\.|$)', re.IGNORECASE),
             'cross_ref': re.compile(r'§?\s*27-(\d{4})', re.IGNORECASE),
             'page_break': re.compile(r'\f|\n\s*\d+\s*\n'),
         }
@@ -131,9 +131,13 @@ class HMCChunker:
             # Find subchapters
             subchapter_match = self.patterns['subchapter'].search(line)
             if subchapter_match:
+                # Title is on the next line
+                title = ""
+                if i + 1 < len(lines):
+                    title = lines[i + 1].strip()
                 structure['subchapters'].append({
                     'number': subchapter_match.group(1),
-                    'title': subchapter_match.group(2).strip(),
+                    'title': title,
                     'line_number': i,
                     'page': current_page
                 })
@@ -141,9 +145,13 @@ class HMCChunker:
             # Find articles
             article_match = self.patterns['article'].search(line)
             if article_match:
+                # Title is on the next line
+                title = ""
+                if i + 1 < len(lines):
+                    title = lines[i + 1].strip()
                 structure['articles'].append({
                     'number': article_match.group(1),
-                    'title': article_match.group(2).strip(),
+                    'title': title,
                     'line_number': i,
                     'page': current_page
                 })
@@ -153,7 +161,7 @@ class HMCChunker:
             if section_match:
                 structure['sections'].append({
                     'number': section_match.group(1),
-                    'title': section_match.group(2).strip() if section_match.group(2) else "",
+                    'title': section_match.group(2).strip() if len(section_match.groups()) > 1 and section_match.group(2) else "",
                     'line_number': i,
                     'page': current_page
                 })

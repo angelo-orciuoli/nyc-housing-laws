@@ -1,23 +1,18 @@
 {
-  "chunk_id": "section_27_2004",
-  "title": "\u00a7 27-2004 - Definitions",
+  "chunk_id": "section_27_2140",
+  "title": "\u00a7 27-2140 - Content and effect of vacate order",
   "hierarchy": {
     "title": "27",
     "chapter": "2",
-    "section": "27-2004"
+    "section": "27-2140"
   },
   "page_numbers": [
-    1
+    126
   ],
   "cross_references": [],
   "keywords": [
     "maintenance",
-    "habitability",
-    "lead",
     "access",
-    "section-27-2004",
-    "common area",
-    "violation",
     "owner",
     "dwelling",
     "section-27-2140",
@@ -25,6 +20,6 @@
   ],
   "chunk_type": "section",
   "parent_chunks": [],
-  "content_length": 7281,
-  "token_estimate": 1820
+  "content_length": 5276,
+  "token_estimate": 1319
 }

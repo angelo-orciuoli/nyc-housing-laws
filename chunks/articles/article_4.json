@@ -1,30 +1,31 @@
 {
-  "chunk_id": "article_1",
-  "title": "Article 1 - ENFORCEMENT ACTIONS AND PROCEEDINGS",
+  "chunk_id": "article_4",
+  "title": "Article 4 - INJUNCTIVE RELIEF",
   "hierarchy": {
     "title": "27",
     "chapter": "2",
-    "article": "1"
+    "article": "4"
   },
   "page_numbers": [
-    98
+    117
   ],
   "cross_references": [],
   "keywords": [
-    "maintenance",
-    "section-27-2125",
-    "ventilation",
-    "tenant",
-    "repair",
-    "owner",
-    "dwelling",
-    "violation",
-    "occupant",
     "health",
+    "maintenance",
+    "access",
+    "tenant",
+    "safety",
+    "section-27-2118",
+    "owner",
+    "violation",
+    "inspection",
+    "occupant",
+    "building",
     "premises"
   ],
   "chunk_type": "article",
   "parent_chunks": [],
-  "content_length": 11907,
-  "token_estimate": 2976
+  "content_length": 5806,
+  "token_estimate": 1451
 }

@@ -1,48 +1,47 @@
 {
-  "chunk_id": "subchapter_1",
-  "title": "Subchapter 1 - GENERAL PROVISIONS",
+  "chunk_id": "subchapter_3",
+  "title": "Subchapter 3 - PHYSICAL AND OCCUPANCY STANDARDS FOR DWELLING UNITS",
   "hierarchy": {
     "title": "27",
     "chapter": "2",
-    "subchapter": "1"
+    "subchapter": "3"
   },
   "page_numbers": [
-    1
+    57
   ],
   "cross_references": [],
   "keywords": [
     "ventilation",
     "violation",
-    "inspection",
-    "section-27-2140",
+    "section-27-2085",
     "occupant",
+    "section-27-2058",
+    "section-27-2059",
     "maintenance",
     "kitchen",
     "tenant",
-    "section-27-2075",
     "sanitary",
-    "common area",
-    "safety",
+    "section-27-2062",
     "apartment",
-    "habitability",
-    "lead",
+    "safety",
+    "section-27-2074",
+    "section-27-2082",
     "owner",
     "building",
-    "section-27-2114",
     "premises",
+    "section-27-2083",
     "fire",
     "bathroom",
+    "section-27-2084",
     "access",
-    "section-27-2093",
-    "section-27-2004",
     "room",
-    "repair",
     "dwelling",
     "section-27-2077",
-    "health"
+    "health",
+    "section-27-2060"
   ],
   "chunk_type": "subchapter",
   "parent_chunks": [],
-  "content_length": 33598,
-  "token_estimate": 8399
+  "content_length": 61999,
+  "token_estimate": 15499
 }
