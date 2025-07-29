@@ -1,0 +1,25 @@
+{
+  "chunk_id": "article_1",
+  "title": "Article 1 - DEFINITIONS",
+  "hierarchy": {
+    "title": "27",
+    "chapter": "2",
+    "article": "1"
+  },
+  "page_numbers": [
+    1
+  ],
+  "cross_references": [],
+  "keywords": [
+    "section-27-2005",
+    "section-27-2004",
+    "owner",
+    "building",
+    "premises",
+    "dwelling"
+  ],
+  "chunk_type": "article",
+  "parent_chunks": [],
+  "content_length": 801,
+  "token_estimate": 200
+}
